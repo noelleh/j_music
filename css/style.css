@@ -261,7 +261,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 \*------------------------------------*/
 
 .navbar-brand {
+    margin-top: 5px;
     padding: 0;
+    margin-bottom: 3px;
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
@@ -1454,6 +1456,7 @@ header {
 
 .footer-logo {
     text-align: center;
+    margin-top: 3px;
     margin-bottom: 40px;
 }
 
