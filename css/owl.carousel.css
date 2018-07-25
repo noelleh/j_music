@@ -48,6 +48,11 @@
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
+  .owl-item {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
