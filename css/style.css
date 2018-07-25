@@ -1445,6 +1445,14 @@ header {
     margin-left: 15px;
 }
 
+#map {
+    display: block;
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*------------------------------------*\
 	Footer
 \*------------------------------------*/
