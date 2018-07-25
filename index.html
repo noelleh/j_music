@@ -40,7 +40,7 @@
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background_zhang.jpg');">
+		<div class="bg-img" style="background-image: url('./img/background_zhang3.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -92,7 +92,7 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">Juicy Music 娱乐制作有限公司</h1>
+							<h1 class="white-text">Juicy Music 娱乐制作</h1>
 							<p class="white-text">“潜心十六年 演艺界的巨型航母 浮出水面”
 							</p>
 							<button class="white-btn">线上购票</button>
@@ -560,19 +560,24 @@
 
 				<!-- google map -->
     			<div class="col-md-16" id="map">
-    				<script>
-					function initMap() {
-  						var juicymusic = {lat: 49.178518, lng: -123.122391};
-  						var map = new google.maps.Map(
-      					document.getElementById('map'), {zoom: 13, center: juicymusic});
-  						var marker = new google.maps.Marker({position: juicymusic, map: map});
-  					}
-    				</script>
-    				<script async defer
-    					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7lHJrGAjcjFORMGHiPPWY8XB-d_CefjE&callback=initMap">
-    				</script>
+    				<div id="map">
+    					<script>
+						function initMap() {
+  							var juicymusic = {lat: 49.178518, lng: -123.122391};
+  							var map = new google.maps.Map(
+      						document.getElementById('map'), {zoom: 13, center: juicymusic});
+  							var marker = new google.maps.Marker({position: juicymusic, map: map});
+  						}
+    					</script>
+    					<script async defer
+    						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7lHJrGAjcjFORMGHiPPWY8XB-d_CefjE&callback=initMap">
+    					</script>
+    				</div>
 				</div>
 				<!-- /google map -->
+
+			</div>
+			<!-- Row -->
 
 		</div>
 		<!-- /Container -->
