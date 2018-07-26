@@ -667,6 +667,14 @@ header {
 }
 
 /*------------------------------------*\
+    Main Event
+\*------------------------------------*/
+
+.main-event>img {
+    width: 100%;
+}
+
+/*------------------------------------*\
 	Portfolio
 \*------------------------------------*/
 
@@ -778,6 +786,12 @@ header {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
     opacity: 1;
+}
+
+.model-text {
+    text-indent: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
