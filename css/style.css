@@ -841,6 +841,14 @@ header {
     color: #fff;
 }
 
+.sponsor {
+    height: 220px;
+}
+
+.sponsor img {
+    vertical-align: center;
+}
+
 /*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
