@@ -842,11 +842,16 @@ header {
 }
 
 .sponsor {
-    height: 220px;
+    height: 200px;
+    position: relative;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
 .sponsor img {
-    vertical-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /*------------------------------------*\
