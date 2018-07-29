@@ -225,7 +225,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn, .white-btn, .outline-btn, .black-btn {
     display: inline-block;
     padding: 10px 35px;
     margin: 3px;
@@ -243,6 +243,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .white-btn {
     background: #FFF;
     color: #10161A !important;
+}
+
+.black-btn {
+    background: #10161A;
+    color: #FFF !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .outline-btn {
@@ -794,6 +801,10 @@ header {
     margin-bottom: auto;
 }
 
+.work-date {
+    text-align: center;
+}
+
 
 /*------------------------------------*\
 	Services
@@ -1018,6 +1029,10 @@ header {
     font-size: 14px;
     color: #6195FF;
     text-transform: uppercase;
+}
+
+.title-sales {
+    color: white;
 }
 
 
