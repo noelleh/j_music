@@ -248,6 +248,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .black-btn {
     background: #10161A;
     color: #FFF !important;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -859,10 +860,11 @@ header {
     margin: 10px 10px;
 }
 
-.sponsor img {
+.img-sponsor {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
+    vertical-align: middle;
 }
 
 /*------------------------------------*\
