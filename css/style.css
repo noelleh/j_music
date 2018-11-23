@@ -614,13 +614,11 @@ header {
 }
 
 .home-content button {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .home-logo {
     text-align: center;
-    margin-top: 3px;
-    margin-bottom: 3px;
 }
 
 .home-img {
