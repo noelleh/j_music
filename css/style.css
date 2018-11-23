@@ -608,8 +608,25 @@ header {
 .home-content h1 {
   text-transform: uppercase;
 }
+
+.home-content h2 {
+  color: red;
+}
+
 .home-content button {
   margin-top: 20px;
+}
+
+.home-logo {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.home-img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
 }
 
 .header-wrapper h2 {
@@ -889,6 +906,15 @@ header {
     color: #6195FF;
     border: 1px solid #6195FF;
     margin-right: 5px;
+}
+
+.feature h2 {
+    color: red;
+    text-align: center;
+}
+
+.feature h4 {
+    text-align: center;
 }
 
 /*------------------------------------*\
