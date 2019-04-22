@@ -1706,6 +1706,7 @@ header {
 
 .owl-theme .owl-nav [class*='owl-'] {
     position: absolute;
+    text-align: middle;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
